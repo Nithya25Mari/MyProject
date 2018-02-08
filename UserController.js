@@ -14,7 +14,7 @@ var handlebars = require('handlebars');
 var fs = require('fs');
 const LocalStrategy = require('passport-local').Strategy;
 
-var PMSErrorConfig = fs.readFileSync(__dirname + '/../Config/ErrorConfig.json');
+var ErrorConfig = fs.readFileSync(__dirname + '/../Config/ErrorConfig.json');
 var Domainconfig = fs.readFileSync(__dirname + '/../Config/CEConfig.json');
 var GetProjectNameconfig = fs.readFileSync(__dirname + '/../Config/EntrpConfiguration.json');
 var GetSubjectNameconfig = fs.readFileSync(__dirname + '/../Config/EmailSubjects.json');
