@@ -51,5 +51,5 @@ userSchema.methods.ComparePassword = function ComparePassword(CandidatePassword,
 
 
 
-const User = mongoose.model('app_user ', userSchema);
+const User = mongoose.model('pms_users ', userSchema);
 module.exports = User;
