@@ -1,0 +1,9 @@
+ "Register": {
+    "HCR001": "Email and Display Name already exist",
+    "HCR002": "Display Name already exist",
+    "HCR003": "This email address is already registered",
+    "HCR004": "Domain Name not registered",
+    "HCR006":  "Enter a valid Email id",
+    "HCR005": "Thank you for registering. An Email has been sent to you. Go to registered email inbox to complete the registration process.",
+    "HCR007": "Phone number already exists"
+  }
