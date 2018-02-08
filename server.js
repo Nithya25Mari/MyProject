@@ -18,7 +18,7 @@ var request = require('request');
 
 
 var App_PORT = 4200;
- var dbpath = "mongodb://mongo:27017/PMSDB";
+ var dbpath = "mongodb://mongo:27017/sampleDB";
 var SESSION_SECRET = "sample";
 var fs = require('fs')
 dotenv.load({ path: '.env.Config' });
